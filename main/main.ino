@@ -1,16 +1,16 @@
-byte numbers[]={0b00111111,
-0b00000110,
-0b01011011,
-0b01001111,
-0b01100110,
-0b01101101,
-0b01111101,
-0b00000111,
-0b01111111,
-0b01101111
+byte numbers[]={0b00111111, //0
+0b00000110, //1
+0b01011011, //2
+0b01001111, //3
+0b01100110, //4
+0b01101101, //5
+0b01111101, //6
+0b00000111, //7
+0b01111111, //8
+0b01101111 //9
 };
-int pins[]={5,18,32,33,25,26,27,15};
-int pinsDigit[]={2,0};
+int pins[]={5,18,32,33,25,26,27,15}; //pin Segments
+int pinsDigit[]={2,0}; //pin Digit
 enum pinsLed{Red=4,Yellow=16,Green=17};
 enum light{isRed=-1,isGreen,isYellow};
 int n=30,lightStatus=isGreen;
