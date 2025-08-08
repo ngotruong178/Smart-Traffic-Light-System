@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Traffic Light System
 
 ## Mô tả dự án
@@ -22,3 +23,7 @@ Ngoài ra, dự án còn có khả năng tích hợp cảnh báo cho người đ
 1. Clone repository:
    ```bash
    git clone https://github.com/ngotruong178/Smart-Traffic-Light-System.git
+=======
+# Smart-Traffic-Light-System
+Using ESP32. Automatically adjusts the traffic light timing based on vehicle flow detected by sensors.  Connects to the cloud for real-time traffic monitoring and data analysis.  Can integrate alerts for pedestrians or priority vehicles (e.g., ambulances).
+>>>>>>> 85d41453cebf5fcb7f058fff290e684c0e1da331
